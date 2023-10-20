@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  react-frontend:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-10-21T00:56:24.978252+09:00"
+    description: react-frontend
+    digest: 1c6dda99ef80817bd947176160809d78ac4b82cb9d40b465e1d8b7aaaa664d6b
+    name: react-frontend
+    type: application
+    urls:
+    - react-frontend-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-10-21T00:56:24.977805+09:00"
