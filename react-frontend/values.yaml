@@ -5,7 +5,7 @@ containerPort: 3000
 
 image:
   repository: lordofkangs/react_frontend
-  tag: ""
+  tag: "latest"
 
 
 service:
