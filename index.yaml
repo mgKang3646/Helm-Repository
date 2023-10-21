@@ -1,0 +1,36 @@
+apiVersion: v1
+entries:
+  mysql-db:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-10-22T00:04:04.345795+09:00"
+    description: mysql-db
+    digest: 20d8d5c33ce4a20e22b51cbc15e8578e2f61e2dbab4f1bbdc465977c6d0e5519
+    name: mysql-db
+    type: application
+    urls:
+    - mysql-db-0.1.0.tgz
+    version: 0.1.0
+  nodejs-backend:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-10-22T00:04:04.345994+09:00"
+    description: nodejs-backend
+    digest: 5dcda80308795bad0f5fad8234402f251d70bcb612b7043d5fb219c26a9663ba
+    name: nodejs-backend
+    type: application
+    urls:
+    - nodejs-backend-0.1.0.tgz
+    version: 0.1.0
+  react-frontend:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-10-22T00:04:04.346252+09:00"
+    description: react-frontend
+    digest: 62bb6cff75083e4a2f0f2851c08f21ffc297d7d5b5a682fae9131e55d3fc103e
+    name: react-frontend
+    type: application
+    urls:
+    - react-frontend-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-10-22T00:04:04.345349+09:00"
