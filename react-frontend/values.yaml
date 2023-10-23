@@ -1,7 +1,7 @@
 
 image:
   repository: lordofkangs/k8s_frontend
-  tag: 14
+  tag: 15
 
 service:
   protocol: TCP
