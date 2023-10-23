@@ -6,7 +6,7 @@ secret:
  
 image:
   repository: lordofkangs/k8s_mysql
-  tag: 10
+  tag: 11
 
 service:
   name: mysql
