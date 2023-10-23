@@ -1,6 +1,6 @@
 image:
   repository: lordofkangs/k8s_backend
-  tag: 13
+  tag: 14
 
 service:
   protocol: TCP

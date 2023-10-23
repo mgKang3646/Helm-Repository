@@ -3,9 +3,9 @@ entries:
   mysql-db:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-10-23T07:55:02.330972068Z"
+    created: "2023-10-23T08:00:02.530985209Z"
     description: mysql-db
-    digest: 7faa657378361fb72926ec40a33f117cf3a845a20b0a0631f0fede0a8ae3e2b0
+    digest: be9da8e7b4ace5127263f445224cfbe331013a55ff3ad22d5f164a37960d6673
     name: mysql-db
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   nodejs-backend:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-10-23T07:55:02.331383258Z"
+    created: "2023-10-23T08:00:02.531242622Z"
     description: nodejs-backend
-    digest: da2116c37bef8a53232a7ed331588af2d6ef496a1f5c72b8d91c048a4428de70
+    digest: 27fd3379d36b5b07588503afff30aedcd6fd3640a913b867990cf097ffba915b
     name: nodejs-backend
     type: application
     urls:
@@ -25,12 +25,12 @@ entries:
   react-frontend:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-10-23T07:55:02.331940104Z"
+    created: "2023-10-23T08:00:02.53155879Z"
     description: react-frontend
-    digest: 52a26c246e053fc207b5a338d9ad4a7966bec93455b01245c56cd8bbec76f16b
+    digest: 2d98058b42b2303b134d05f1518c90270ddfd118df509532d7b457bdd5f027ff
     name: react-frontend
     type: application
     urls:
     - react-frontend-0.1.0.tgz
     version: 0.1.0
-generated: "2023-10-23T07:55:02.330072656Z"
+generated: "2023-10-23T08:00:02.530420463Z"
