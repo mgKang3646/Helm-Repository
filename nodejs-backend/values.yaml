@@ -1,0 +1,18 @@
+image:
+  repository: lordofkangs/k8s_backend
+  tag: latest
+
+service:
+  protocol: TCP
+  type: ClusterIP
+  port: 8080
+  targetPort: 5000
+
+deployment:
+  replicaCount: 2
+  containerPort: 5000
+  
+
+
+
+
