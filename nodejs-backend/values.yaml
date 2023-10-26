@@ -7,7 +7,7 @@ service:
   type: ClusterIP
   port: 8080
   targetPort: 5000
-
+  scrape: "true"
 deployment:
   replicaCount: 2
   containerPort: 5000
