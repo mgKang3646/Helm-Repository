@@ -1,0 +1,30 @@
+
+secret:
+  dbPassword: am9obmFobg==
+  name: db-secret
+  key: DB_Password
+ 
+image:
+  repository: lordofkangs/k8s_mysql
+  tag: 3
+
+service:
+  name: mysql
+  protocol: TCP
+  type: ClusterIP
+  port: 3306
+  targetPort: 3306
+  scrape: "true"
+
+deployment:
+  replicaCount: 1
+  containerPort: 3306
+  envPwName: MYSQL_ROOT_PASSWORD
+  envDbName: MYSQL_DATABASE
+  envDbValue: myapp
+  
+  
+
+
+
+

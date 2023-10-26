@@ -1,0 +1,32 @@
+
+image:
+  repository: lordofkangs/k8s_frontend
+  tag: 3
+
+service:
+  protocol: TCP
+  type: ClusterIP
+  port: 80
+  targetPort: 3000
+
+
+ingress:
+  name: nginx-ingress
+  pathType: Prefix
+  frontPath: /
+  frontService: react-frontend
+  frontPort: 80
+  backPath: /api
+  backService: nodejs-backend
+  backPort: 8080
+
+deployment:
+  replicaCount: 2
+  containerPort: 3000
+
+  
+  
+
+
+
+
