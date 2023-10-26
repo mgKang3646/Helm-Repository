@@ -1,17 +1,18 @@
 image:
   repository: lordofkangs/k8s_backend
-  tag: 4
+  tag: 3
 
 service:
   protocol: TCP
   type: ClusterIP
   port: 8080
   targetPort: 5000
-  scrape: "true"
+  scrape: true
 deployment:
   replicaCount: 2
   containerPort: 5000
   
+
 
 
 
