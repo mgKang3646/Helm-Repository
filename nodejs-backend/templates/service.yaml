@@ -4,7 +4,7 @@ metadata:
   name: {{ .Chart.Name }}
   annotations:
       prometheus.io/scrape: 'true'
-      prometheus.io/port: '8080'
+      prometheus.io/port: '5000'
 spec:
   type: {{ .Values.service.type }}
   ports:
