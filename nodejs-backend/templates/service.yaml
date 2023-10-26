@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: {{ .Chart.Name }}
   annotations:
-      prometheus.io/scrape: true
+      prometheus.io/scrape: 'true'
 spec:
   type: {{ .Values.service.type }}
   ports:
