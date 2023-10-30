@@ -20,12 +20,6 @@ ingress:
   backPort: 8080
 
 deployment:
-  replicaCount: 2
+  replicaCount: 3
   containerPort: 3000
-
-  
-  
-
-
-
 

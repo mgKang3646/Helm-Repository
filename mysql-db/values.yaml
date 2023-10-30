@@ -16,7 +16,7 @@ service:
   targetPort: 3306
 
 deployment:
-  replicaCount: 1
+  replicaCount: 2
   containerPort: 3306
   envPwName: MYSQL_ROOT_PASSWORD
   envDbName: MYSQL_DATABASE
